@@ -1,0 +1,7 @@
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+.env*
+# Original source export; the web-ready copy is tracked at public/images/product/.
+100000 final all 4 rhino.glb
