@@ -19,3 +19,10 @@ export default function Page() {
   return <Carryform brand="CARRYFORM" />
 }
 ```
+
+## Deploy on Netlify
+
+The repository's `netlify.toml` configures the production build and points Netlify
+to `.next-carryform`, the custom Next.js build directory. Keep the Netlify site
+base directory set to the repository root and avoid overriding the publish
+directory in the Netlify UI.
